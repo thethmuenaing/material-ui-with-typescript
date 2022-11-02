@@ -2,8 +2,8 @@ import {FC} from 'react'
 import {useForm , SubmitHandler, FormProvider } from "react-hook-form"
 import {yupResolver} from "@hookform/resolvers/yup"
 import * as yup from "yup"
-import SubComponent1 from "./Component/SubComponent1"
-import SubComponent2 from './Component/SubComponent2';
+import SubComponent1 from "./component/SubComponent1"
+import SubComponent2 from './component/SubComponent2';
 
 
 interface IFormInputs {
