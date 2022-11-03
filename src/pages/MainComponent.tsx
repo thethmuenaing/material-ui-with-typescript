@@ -2,8 +2,9 @@ import {FC} from 'react'
 import { yupResolver } from '@hookform/resolvers/yup'
 import * as yup from "yup"
 import {useForm, SubmitHandler, FormProvider } from "react-hook-form"
-import InputText1 from './InputText1'
-import InputText2 from './InputText2'
+
+import InputText1 from '../components/second/InputText1'
+import InputText2 from '../components/second/InputText2'
 
 
 interface IForminput {
@@ -36,9 +37,9 @@ const MainComponent: FC = () => {
 	return (
 		<FormProvider {...methods}>
 			<form onSubmit={methods.handleSubmit(formSubmitHandler)}>
-				<InputText1 />
+				<InputText1/>
 				<br />
-				<InputText2 />
+				<InputText2/>
 				<br />
 				<input type="submit" />
 			</form>
