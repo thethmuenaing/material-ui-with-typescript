@@ -1,11 +1,11 @@
 import './App.css';
-import MainComponent from './pages/MainComponent';
+import FormProviderPage from './pages/FormProvider';
 
 
 function App() {
   return (
     <div className="App">
-      <MainComponent />
+      <FormProviderPage />
     </div>
   );
 }
