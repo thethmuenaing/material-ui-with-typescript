@@ -1,11 +1,11 @@
 import './App.css';
-import FieldArrayForm from './pages/UseFieldArray';
+import Checkout from "./pages/Checkout"
 
 
 function App() {
   return (
     <div className="App">
-      <FieldArrayForm />
+      <Checkout />
     </div>
   );
 }
