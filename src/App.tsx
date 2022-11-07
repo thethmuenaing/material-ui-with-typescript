@@ -1,11 +1,11 @@
 import './App.css';
-import FormProviderPage from './pages/FormProvider';
+import FieldArrayForm from './pages/UseFieldArray';
 
 
 function App() {
   return (
     <div className="App">
-      <FormProviderPage />
+      <FieldArrayForm />
     </div>
   );
 }
