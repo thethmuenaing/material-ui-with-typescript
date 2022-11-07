@@ -5,8 +5,8 @@ import { Button, Grid } from '@material-ui/core';
 import { createStyles, makeStyles, Theme } from '@material-ui/core/styles';
 import { SubmitHandler, FormProvider, useForm } from 'react-hook-form';
 import { SchemaOf, string, object } from 'yup';
-// import ReactHookFormTextField from '../components/RHookFormTextField';
-import ReactHookFormTextFieldContainer from '../components/RHookFormTextFieldContainer';
+import ReactHookFormTextField from '../components/RHookFormTextField';
+// import ReactHookFormTextFieldContainer from '../components/RHookFormTextFieldContainer';
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -53,8 +53,8 @@ const FormProviderPage: FC = () => {
 								margin='dense'
 								{...methods.register("name")}
 							/> */}
-							{/* <ReactHookFormTextField label="Name" name="name" /> */}
-							<ReactHookFormTextFieldContainer label="Name" name="name" />
+							<ReactHookFormTextField label="Name" name="name" />
+							{/* <ReactHookFormTextFieldContainer label="Name" name="name" /> */}
             </Grid>
             <Grid item>
               {/* <TextField 
@@ -66,8 +66,8 @@ const FormProviderPage: FC = () => {
 								margin='dense'
 								{...methods.register("message")}
 							/> */}
-							{/* <ReactHookFormTextField label="Message" name="message" /> */}
-							<ReactHookFormTextFieldContainer label="Message" name="message" />
+							<ReactHookFormTextField label="Message" name="message" />
+							{/* <ReactHookFormTextFieldContainer label="Message" name="message" /> */}
             </Grid>
             <Grid item>
               <Button type="submit" variant="contained" color="primary">
